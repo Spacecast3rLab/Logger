@@ -6,6 +6,6 @@ import (
 
 var Version string = "0.1.0"
 
-func Logger(str string) {
+func Log(str string) {
 	fmt.Println("[LOG] - ", str)
 }
